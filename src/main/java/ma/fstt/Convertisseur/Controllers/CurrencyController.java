@@ -40,7 +40,7 @@ public class CurrencyController {
 		for(String key: keys){
 			service.SaveCurrency(new Currency(key , result.conversion_rates.get(key) , date));
 		}
-		return "Dome";
+		return "Done";
 	}
 
 	
